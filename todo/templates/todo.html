@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+</head>
+<body>
+待办清单
+<form method="post" action="/add/">
+    {% csrf_token %}
+    <input name="thing">
+    <button type="submit">提交</button>
+
+</form>
+
+<ul>
+    {% for todo in todo_list %}
+    <li>
+        <form action="/edit/" method="post">
+            {% csrf_token %}
+            <input hidden="hidden"  name="id" value="{{ todo.id }}">
+            <input name="thing" value="{{ todo.thing }}">
+            <!--<a href="/edit?id={{todo.id}}">修改</a>-->
+            <button type="submit">提交</button>
+        </form>
+        <a href="/delete?id={{todo.id}}">删除</a>
+    </li>
+    {% endfor %}
+</ul>
+</body>
+</html>
