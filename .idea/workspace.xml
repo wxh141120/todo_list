@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e59ce82b-989d-464c-aefa-aa857be41042" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/todo_list.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/templates/todo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_list/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_list/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_list/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_list/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xh.950823" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xh.950823.pub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -91,11 +69,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -153,10 +140,11 @@
         <option value="$PROJECT_DIR$/todo_list/urls.py" />
         <option value="$PROJECT_DIR$/todo/views.py" />
         <option value="$PROJECT_DIR$/todo/templates/todo.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="33" />
     <option name="width" value="1410" />
     <option name="height" value="1040" />
@@ -282,7 +270,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="33" y="0" width="1410" height="1040" extended-state="1" />
+    <frame x="33" y="0" width="1410" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932525" visible="true" weight="0.18731779" />
@@ -493,6 +481,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
